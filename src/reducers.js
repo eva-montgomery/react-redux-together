@@ -1,7 +1,8 @@
 import { 
     INCREMENT, 
     DECREMENT, 
-    RESET
+    RESET,
+
 } from "./actions";
 
 // Our ideal/default state is just a nummer:
@@ -25,6 +26,7 @@ export function count(state=0, action) {
             // reset
             newState = 0;
             break;        
+        
     }
     return newState;
 }

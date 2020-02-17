@@ -29,7 +29,8 @@ function mapDispatchToProps(dispatch) {
         handleReset: () => {
             // store.dispatch(actionReset())
             dispatch(actionReset())
-        }
+        },
+        
     }
 }
 

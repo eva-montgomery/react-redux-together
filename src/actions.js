@@ -4,6 +4,7 @@ export const INCREMENT = 'INCREMENT'
 export const DECREMENT = 'DECREMENT'
 export const RESET = 'RESET'
 
+
 // Actions best practice #1; action creator funcitons
 export function actionIncrement() {
     return ({
